@@ -1,18 +1,6 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header styles */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +12,42 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-subheader {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Content styles */
+.container {
+  margin-top: 2rem;
 }
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 1rem;
+}
+
+/* Footer styles */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.content-heading {
+  font-size: 1.5rem;
+}
+
+.content-text {
+  font-size: 1rem;
+}
+/* Content styles */
+.custom-content {
+  font-family: Arial, sans-serif; /* Modifikasi font */
+  color: #d72929; /* Modifikasi warna teks */
+}
+
